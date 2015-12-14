@@ -1,0 +1,233 @@
+      @media screen and (min-width:0px) and (max-width:460px) {
+        html {
+            padding: 0;
+            margin: 0;
+        }
+        #home {  
+            background-color: #C3FF6D;
+        }
+          
+         
+          
+        .nav ul {
+            display: inline;
+            width: 100%;
+             padding: 10px;
+            /* gets rid of dots */
+        }
+        .nav ul li {
+            text-align: center;
+           padding: 6px;
+            
+        }
+          
+          .nav ul li a{
+          font-family: 'Droid Serif', 'Arimo Serif', serif;
+          
+          }
+        .primera {
+            background-color: #DFE858;
+        }
+        .segunda {
+            background-color: #FFF261;
+        }
+        .tercera {
+            background-color: #FFE15A;
+        }
+        a {
+            text-decoration: none;
+        }
+        img {
+            width: 100%;
+            position: relative;      
+        }
+        #intro {
+            display: inline;
+         
+        }      
+        #intro li{
+            text-align: left;
+            padding: 4px;
+            border: 6px solid #9EE83A;
+       
+            }
+        .skills {
+            display: inline;
+            text-align: center;
+        }
+        .skills li {
+            text-align: left;
+            margin-left: 20px;
+            padding: 2px;
+             font-family: 'Lora', serif;
+        }
+          
+          #main{
+          background-color: #C3FF6D;
+          }
+          
+          #contact{
+          background-color: #C3FF6D;
+          }
+          
+          #needColor{
+          background-color:  #FFE15A;
+          }
+          
+          .name {
+          float: left;
+        display: block;
+         width: 100%;
+          }
+            
+          h4{
+          font-family: 'Droid Serif', serif, 'Arimo Serif';
+          }
+          
+          .toggle{
+               font-family: 'Droid Serif', 'Arimo Serif', serif;
+          }
+        } 
+            
+            
+    
+      @media screen and (min-width:461px) and (max-width:1500px) {
+          
+          
+          
+          html{
+          padding: 0;
+            margin: 0;
+              
+          }
+          
+           #home {
+            
+            background-color: #C3FF6D;
+        }
+          
+          .toggle{
+        border: 5px solid aqua;
+        background-color: #DFE858;
+         display: block;
+         padding: 10px;
+        font-family: 'Droid Serif', 'Arimo Serif', serif;
+              
+          }
+          
+
+          .nav{
+         
+        background-color: #DFE858; 
+              text-align: center;
+            display: inline-block;
+              width: 100%;
+             
+          }
+          
+          
+          
+         .nav ul {
+             display: inline-block; /*centers the nav links */
+             
+            
+              
+
+         }
+         .nav ul li {
+             display:inline-block;
+             padding-left: 40px;
+             padding-right: 40px;
+             
+         }
+          
+              .nav ul li a{
+          font-family: 'Droid Serif', 'Arimo Serif', serif;
+          
+          }
+          
+          img{
+          width: 40%;
+         float: left;
+        height: 400px;
+        
+        
+          
+          }  
+          
+          
+          #intro{
+          display: block;
+      
+          }
+          
+          
+          #intro li{
+              font-family: sans-serif;
+          
+          
+          }
+          
+          
+          #intro li{
+          display: block;
+          padding: 10px;
+        text-align: center;
+              position: relative;
+               font-family: 'Lora', serif;
+              
+           
+            
+          }
+          
+          
+          .skills{
+          display: inline-block;
+          }
+          
+          
+          h2{
+          text-align: center;
+               font-family: 'Lora', serif;
+          }
+          
+          .skills li{
+          
+           font-family: 'Lora', serif;
+           padding: 4px;
+              
+          }
+          
+                        #main{
+          background-color: #C3FF6D;
+          }
+          
+          #contact{
+          background-color: #C3FF6D;
+          }
+          
+          #needColor{
+          background-color:  #FFE15A;
+            width: 100%;
+            text-align: center;
+          }
+          
+      
+          
+          .card{
+          display: inline-block;
+          }
+          
+          .name {
+          float: left;
+        display: inline-block;
+      
+          }
+          
+         
+          
+          
+          
+          
+          
+     }
